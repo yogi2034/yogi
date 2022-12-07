@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Protfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/1951ab4e28.js" crossorigin="anonymous"></script>
+    </head>
+  <body>
+    <div id="header">
+      <div class="<container">
+        <nav>
+          <img src="logo.jpg" class="logo">
+          <ul id="sidemenu">
+            <li><a href="#header"#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#college">College</a></li>
+            <li><a href="#services">Other Interests</a></li>
+            <li><a href="#contact">contact</a></li>
+            <i class="fa-thin fa-circle-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+  
+      <h1>Hi, I'm <span>Yogi</span></h1>
+      <p > Fascinated by science,<br> Hijacked by Technology</p>
+      
+      </div>
+    </div>
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="yogi.jpg" class="image">
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p class="me-me">Hi,My name is yogitha,A curious learner,tech enthusiast, programmer.
+              I have diverse set of Interests,loves to talk & hear about spirtuality,dreams(zzz..),finance,creativity,
+              technology,psychology,crypto,self-development...
+              and the list goes so..on
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+              <p class="tab-links " onclick="opentab('Education')">Education</p>
+              </div>
+            <div class="tab-contents active-tab" id="Skills">
+              <ul>
+                <li><span style="color:rgb(105, 105, 202)">Coding</span><br>Python,C programming</li>
+                <li><span style="color:rgb(105, 105, 202)">Photography</span><br>Android Photographer & Editor</li>
+                <li><span style="color:rgb(105, 105, 202)">Web Development</span><br></li>Html <br>Css <br>Javascript</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="Education">
+              <ul>
+                <li><span style="color:rgb(105, 105, 202)">2024</span><br>B.Tech,IT</li>
+                <li><span style="color:rgb(105, 105, 202)">2019</span><br>INTERMEDIATE,MPC</li>
+                <li><span style="color:rgb(105, 105, 202)">2017</span></span><br>SSC </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   <!---------------------college----------------->
+     <div id="college">
+      <div class="container">
+        <h1 class="sub-title coll" style="text-align:center ">MY College</h1>
+        <br><br><br>  
+        <div class="row">
+        <div class="column">
+          <img src="pm.jpg" style="width:300px">
+        </div>  
+        <div class="column">
+          <img src="mg.jpg" style="width:300px">
+        </div>     
+        <div class="column">
+          <img src="gang.jpg" style="width:300px">
+        </div> <br><br> 
+        
+
+        <p id="engineer" style="font-size:300%;"><span style="color:black">----------</span> Engineering is magic made real.</p>
+        
+          <br><br>
+        
+        </div> 
+              
+           
+        </div>
+      </div>
+     </div> 
+<!--------Other Interests---------->
+<div id="services"> 
+    <div class="container">
+        <h1 class="sub-title">Other Interests</h1>
+        <div class="services-list">
+        <div>
+            <h2>spirituality</h2><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore tempora alias ullam ad consequatur dicta laudantium velit consequuntur voluptatem, impedit assumenda maxime quasi, vitae quod, iste rerum incidunt quam sunt!</p>
+            <a href="https://en.wikipedia.org/wiki/Spirituality">Learn more</a>
+        </div>
+        <div>
+            <h2>Photography</h2><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore tempora alias ullam ad consequatur dicta laudantium velit consequuntur voluptatem, impedit assumenda maxime quasi, vitae quod, iste rerum incidunt quam sunt!</p>
+            <a href="https://en.wikipedia.org/wiki/Photography">Learn more</a>
+        </div>
+        <div>
+            <h2>Agriculture</h2><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore tempora alias ullam ad consequatur dicta laudantium velit consequuntur voluptatem, impedit assumenda maxime quasi, vitae quod, iste rerum incidunt quam sunt!</p>
+            <a href="https://en.wikipedia.org/wiki/Agriculture">Learn more</a>
+        </div>
+    </div>
+</div>         
+<!------------contact------------>
+<div id="contact"><div class="container"><div class="row">
+    <div class="contact-left">
+        <h1 cass="sub-title">Contact Me</h1>
+        <p><i class="fa-duotone fa-envelope"></i>happy@gmail.com</p>
+        <p><i class="fa-solid fa-phone"></i>9849594822</p><br><br>
+        <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-quora"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+        </div><button>
+      
+    </div>
+    <div class="contact-right">
+        <form action="">
+            <input type="text" name="name" placeholder="name" required>
+            <input type="email" name="email" placeholder="email" required>
+        <textarea name="message" placeholder="your message" cols="30" rows="10"></textarea>
+        <input type="submit" class="btn btn2">
+        </form>
+    </div>
+</div>
+<div class="copyright">
+  <p>Copyright © Yogi. Made with <i class="fa-solid fa-heart"></i>  by Yogi</p>
+</div></div></div>
+ <script>
+      var tablinks = document.getElementsByClassName('tab-links');
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname){
+        for(tablink of tablinks){
+          tablink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents){
+          tabcontent.classList.remove("active-tab")
+        }
+      
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab")
+      }
+    
+    </script>
+    <script>
+      var sidemenu=document.getElementById("sidemenu");
+      function openmenu(){
+        sidemenu.style.right="0";
+      }
+      function closemenu(){
+        sidemenu.style.right="-200px";
+      }
+      
+    </script>
+  </body>
+</html>
